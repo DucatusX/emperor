@@ -16,9 +16,6 @@ import MImg4 from '../../assets/img/managers/4.jpg';
 import MImg5 from '../../assets/img/managers/5.jpg';
 import MImg6 from '../../assets/img/managers/6.jpg';
 import MImg7 from '../../assets/img/managers/7.jpg';
-import MImg8 from '../../assets/img/managers/8.jpg';
-import MImg10 from '../../assets/img/managers/10.jpg';
-import MImg11 from '../../assets/img/managers/11.jpg';
 import Line from '../../assets/img/advisory/line.png';
 import Adv1 from '../../assets/img/advisory/advisor-1.png';
 import Adv2 from '../../assets/img/advisory/advisor-2.png';
@@ -26,8 +23,6 @@ import Adv3 from '../../assets/img/advisory/advisor-3.png';
 import Adv4 from '../../assets/img/advisory/advisor-4.png';
 import Adv5 from '../../assets/img/advisory/advisor-5.png';
 import Adv6 from '../../assets/img/advisory/advisor-6.png';
-import Adv7 from '../../assets/img/advisory/advisor-7.png';
-import Adv8 from '../../assets/img/advisory/advisor-8.png';
 
 const HomePage: React.FC = () => {
   const cards = [
@@ -71,16 +66,11 @@ const HomePage: React.FC = () => {
     },
     {
       img: MImg2,
-      name: 'Bertie Worth',
-      position: 'Chief Financial Officer',
-    },
-    {
-      img: MImg3,
       name: 'Mario Hintermayer',
       position: 'Head of Centurion Product Marketing & Ducatus Charity',
     },
     {
-      img: MImg4,
+      img: MImg3,
       name: 'Silke Leistner',
       position: (
         <Fragment>
@@ -89,32 +79,22 @@ const HomePage: React.FC = () => {
       ),
     },
     {
-      img: MImg5,
+      img: MImg4,
       name: 'Mouhsin Senhaji',
       position: 'Head of Information Systems',
     },
     {
-      img: MImg6,
+      img: MImg5,
       name: 'Geoff Harrison',
       position: 'Head of Global Support',
     },
     {
-      img: MImg7,
-      name: 'Frances Sy',
-      position: 'Exec. Assistant to Exec. Chairman',
-    },
-    {
-      img: MImg8,
-      name: 'Abdulkarim Safwan',
-      position: 'Head of Strategic Partnerships',
-    },
-    {
-      img: MImg10,
+      img: MImg6,
       name: 'Sheilah Manalo',
       position: 'Head of Communications',
     },
     {
-      img: MImg11,
+      img: MImg7,
       name: 'Sanjay Bhoola',
       position: 'Head of Ducatus Property & Travel',
     },
@@ -123,7 +103,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Dr. Hatem Al Shanfari ',
       position: 'Entrepreneur, Educator and Member of the Board of Governors of the Central Bank of Oman',
-      img: Adv2,
+      img: Adv1,
       bio:
         <Fragment>
           One of Oman's leading economists, Dr. Hatem Al-Shanfari is Assistant Professor in the Department of Economics
@@ -147,7 +127,7 @@ const HomePage: React.FC = () => {
     {
       name: 'His Excellency Tan Sri Dato Professor Joseph Adaikalam',
       position: 'Educationist, Philanthropist and Economic Advisor to the Government of Malaysia',
-      img: Adv6,
+      img: Adv2,
       bio:
         <Fragment>
           His Excellency Tan Sri Dato Professor Joseph Adaikalam is an educationist, social entrepreneur and
@@ -201,7 +181,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Rashid Al Habtoor',
       position: 'CEO and President of RKHBC, Al Habtoor Trading Enterprises (HTE) LLC and RKH Investments',
-      img: Adv1,
+      img: Adv4,
       bio:
         <Fragment>
           Born into one of the largest business families and raised in Dubai, United Arab Emirates, Mr. Al Habtoor's
@@ -227,49 +207,9 @@ const HomePage: React.FC = () => {
         </Fragment>
     },
     {
-      name: 'Evan Lim',
-      position: 'Senior Vice President at DBS Bank',
-      img: Adv5,
-      bio:
-        <Fragment>
-          A highly experienced Asset Management and Private Equity professional, Mr. Lim's expertise includes managing
-          and driving product, marketing and distribution for Asian and Global markets. Mr. Lim is a trusted finance
-          professional providing investment solutions via fixed income, equity and private equity structures while
-          building and fostering regional and global relationships.
-          <br/>
-          <br/>
-          A graduate of Rutgers University with a degree in Accounting and Finance, Mr. Lim's professional background
-          includes stints at Goldman Sachs in New York, UBS Singapore, Legg Mason, and Mandiri Development as CEO. He is
-          currently a Senior Vice President at DBS Bank, a leading multinational financial services group headquartered
-          in Singapore.
-        </Fragment>
-    },
-    {
-      name: 'Dr. Omar Ibrahim Khader',
-      position: 'Businessman and Economic Advisor to HE Sheikh Khalid Al Hamed',
-      img: Adv4,
-      bio:
-        <Fragment>
-          A seasoned businessman with extensive experience in consultancy and project management, Dr. Khader has over 27
-          fruitful years of doing business in the GCC and MENA regions. Through his expertise, he was appointed as a
-          Business and Economic Advisor to His Excellency Sheikh Khalil Al Hamed.
-          <br/>
-          <br/>
-          Educated in the United States, he graduated with a degree in Computer Engineering from San Diego State
-          University in California and went on to finish his Master's degree at Campbell University. It is also in the
-          US where he obtained his PhD in International Business.
-          <br/>
-          <br/>
-          He started businesses in consultancy and quantity surveying in the US and worked as a consultant for various
-          projects, including being a member of the Local Consultancy Committee of the California Consultant Group. From
-          the US, he has brought his expertise to the gulf region where he helped develop businesses in various
-          industies, ranging from marine maintenance work and water systems, to housing and agricultural projects.
-        </Fragment>
-    },
-    {
       name: 'Jürgen Kob',
       position: 'Fintech and Asset Management Consultant',
-      img: Adv7,
+      img: Adv5,
       bio:
         <Fragment>
           Jürgen is a consultant with 30 years of experience in the traditional financial industry and asset management.
@@ -294,7 +234,7 @@ const HomePage: React.FC = () => {
     {
       name: 'Joseph Koren',
       position: 'Business Leader and Cyber Security Expert',
-      img: Adv8,
+      img: Adv6,
       bio: <Fragment>
         After 35 years in the jewelry industry as CEO of Nissko Jewelry and Daniel K, Mr. Koren cultivated relationships
         all over the world, ranging from big chain department store executives to VIP clients to Royal Family Members.
@@ -395,20 +335,6 @@ const HomePage: React.FC = () => {
           {managers.map((manager, index) => (
             <ManagerCard key={index} {...manager} />
           ))}
-        </div>
-        <div className="home__advisory-board">
-          <img className="home__advisory-board__line" src={Line} alt="line between sections"/>
-          <div className="home__advisory-board__header">Advisory Board</div>
-          <div className="home__advisory-board__content">
-            {advisory.map((advisor, index) => (
-              <AdvisorCard
-                img={advisor.img}
-                name={advisor.name}
-                position={advisor.position}
-                bio={advisor.bio}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </main>
